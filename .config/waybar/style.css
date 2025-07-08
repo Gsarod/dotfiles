@@ -1,0 +1,168 @@
+/*
+* Waybar modules setup 
+*/
+
+window#waybar{
+  background-color : rgba(178,178,178, 0.5);
+}
+
+#custom-media {
+  padding: 4px;
+  font-weight: 700;
+  background-color: #1db954;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  border: 2px solid;  
+}
+
+#custom-media.custom-spotify-playing {
+  color: #CDD7D6;
+  background-color :#171614; 
+  border-color: #CDD7D6;
+}
+
+#custom-media.custom-spotify-paused {
+  color: #171614;
+  background-color :#CDD7D6;
+  border-color: #171614;
+}
+
+#custom-mute {
+  padding: 2px;
+  font-weight: 700;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  border: 2px solid;  
+}
+#custom-mute.mute {
+  color: #171614;
+  background-color :#CDD7D6;
+  border-color: #171614;
+}
+
+#custom-mute.unmute {
+  color: #CDD7D6;
+  background-color :#171614; 
+  border-color: #CDD7D6;
+}
+
+
+#pulseaudio-slider {
+  min-width : 250px;  
+}
+
+#pulseaudio-slider slider {
+  min-height: 10px;
+  min-width: 0px;
+  opacity: 100;
+  background-image: none;
+  border: none;
+  box-shadow: none;
+}
+#pulseaudio-slider trough {
+  min-height: 10px;
+  min-width: 80px;
+  border-radius: 4px;
+  color: #171614;
+  background-color :#CDD7D6;
+  border-color: #CDD7D6;
+}
+#pulseaudio-slider highlight {
+  min-width: 10px;
+  border-radius: 4px;
+  color: #CDD7D6;
+  background-color :#171614; 
+  border-color: #CDD7D6;
+}
+
+
+#workspaces {
+  border-radius: 4px;
+  padding: 4px;
+  background-color :#171614;
+}
+#workspaces button {
+  color: #171614;
+  background-color :#CDD7D6;
+  border-color: #171614;
+  padding : 2px;
+  border-radius : 4px;
+}
+#workspaces button.active {
+  color: #CDD7D6;
+  background-color :#171614; 
+}
+#workspaces button.urgent {
+  background-color :#212121;
+}
+#workspaces button.empty {
+  color: #171614;
+  background-color :#CDD7D6;
+}
+
+
+#network {
+  color: #171614;
+  background-color :#CDD7D6;
+  border-color: #171614;
+  border: 2px solid;  
+  border-radius: 4px;
+}
+#network.disconnected{
+  border-color: #212121;
+  color: #212121;
+  background-color :#A71D31;
+}
+#network.ethernet {
+  color: #CDD7D6;
+  background-color :#171614; 
+  border-color: #CDD7D6;
+}
+#network.wifi {
+  color: #CDD7D6;
+  background-color :#171614; 
+  border-color: #CDD7D6;
+}
+
+#clock{
+  border: 2px solid;
+  border-radius: 4px;
+  padding: 2px; 
+  color: #171614;
+  background-color :#CDD7D6;
+  border-color: #171614;
+}
+
+#cpu {
+  border: 2px solid;  
+  border-radius: 4px;
+  padding: 2px; 
+  color: #CDD7D6;
+  background-color :#171614; 
+  border-color: #CDD7D6;
+}
+#memory {
+  border: 2px solid;  
+  border-radius: 4px;
+  padding: 2px; 
+  color: #CDD7D6;
+  background-color :#171614; 
+  border-color: #CDD7D6;
+}
+#bluetooth {
+  border: 2px solid;  
+  border-radius: 4px;
+  padding: 2px; 
+  color: #CDD7D6;
+  background-color :#171614; 
+  border-color: #CDD7D6;
+}
+
+#custom-power {
+  border: 2px solid;  
+  border-radius: 4px;
+  padding: 2px; 
+  color: #CDD7D6;
+  background-color :#171614; 
+  border-color: #CDD7D6;
+}

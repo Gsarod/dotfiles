@@ -1,0 +1,42 @@
+/////////////////////////
+// Waybar layout setup //
+/////////////////////////
+
+{
+  //modules.json
+  "include" : ["~/.config/waybar/modules.jsonc"],
+  // Bar config
+  "position" : "top",
+  "height" : 24,
+  "spacing" : 4,
+  "reload_style_on_change" : true,
+  /* 
+  Left modules
+  Used for status on network, cpu gpu and ram  
+  */
+  "modules-left" : [
+    "network",
+    "cpu",
+    "memory"
+  ],
+  /*
+  Middle modules
+  Just a clock and spotify with a workspace selector
+  */
+  "modules-center" : [
+    "custom/media",
+    "clock",
+    //TO BE IMPLEMENTED
+    "hyprland/workspaces"
+  ],
+  /*
+  Right modules 
+  Volume, bluetooth, and a poweroff button
+  */
+  "modules-right" : [
+    "custom/mute",
+    "pulseaudio/slider",
+    "bluetooth",
+    "custom/power",
+  ]
+}
